@@ -3,12 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prep-to-Plate</title>
+    <title>My Simple Page</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 0;
+            background-color: #f4f4f5;
+            color: #18181b;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #18181b;
+            color: #ffffff;
+            padding: 2.5rem 1rem;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        main {
+            flex: 1;
+            max-width: 600px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+            text-align: center;
+        }
+        p {
+            font-size: 1.125rem;
+            line-height: 1.6;
+            color: #3f3f46;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #2563eb;
+            color: #ffffff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.375rem;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+        .btn:hover {
+            background-color: #1d4ed8;
+        }
+    </style>
 </head>
 <body>
-
-    <h1>Download my app</h1>
-    <p><a href="">Link</a></p>
-
+    <header>
+        <h1>Perp-To-Plate Download Page</h1>
+    </header>
+    <main>
+        <p> The Prep-to-Plate app is an an all-in-one location for meal planning. </p>
+        <p> The app will present the user with a main menu to choose between “Prep”, “Plan”, and “Shop”. </p>
+        <p> The “Prep” section will allow the user to create a catalog of meals. Each meal will consist of ingredients, recipes, serving size, and options to categorize the meal. </p>
+        <p>    Meals can be edited or deleted. </p>
+        <p>    In the “Plan” section the app allows a user to search for meals in their catalog and organize meals on a calendar, up to three meals per day.  </p>
+        <p>    When a user decides to go grocery shopping, they will select the days the wish to shop for. The ingredients in the meals they have planned on these days will populate in the shopping list.  </p>
+        <p>    The “Shop” section will present a shopping list where items can be marked/checked off the list.  </p>
+        <p>    We hope you enjoy the Prep to Plate mobile app! </p>
+        </p>
+        <a href="https://github.com/wgudr/prep-to-plate/blob/main/app-release.apk" class="btn" download>Download File</a>
+    </main>
 </body>
 </html>
